@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name 8051c_memscan-rescue)(type Legacy)(uri ${KIPRJMOD}/8051c_memscan-rescue.lib)(options "")(descr ""))
 )
