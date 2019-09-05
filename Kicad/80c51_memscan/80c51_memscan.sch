@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:8051c_memscan-cache
-EELAYER 29 0
+LIBS:80c51_memscan-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "8051C Memory Scanner"
+Title "80C51 Memory Scanner"
 Date "2019-08-30"
 Rev "v1.0"
 Comp ""
@@ -162,7 +162,7 @@ Connection ~ 3500 1900
 Wire Wire Line
 	3500 1900 3650 1900
 $Comp
-L 8051c_memscan-rescue:P80C51FA-4N,112-P80C51FA-4N_112 U1
+L 80c51_memscan-rescue:P80C51FA-4N,112-P80C51FA-4N_112-8051c_memscan-rescue U1
 U 1 1 5D70DC40
 P 5050 3550
 F 0 "U1" H 5050 5220 50  0000 C CNN
