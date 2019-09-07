@@ -135,7 +135,7 @@ $EndComp
 Wire Wire Line
 	2500 3600 3350 3600
 $Comp
-L Connector_Generic:Conn_02x16_Counter_Clockwise J1
+L Connector_Generic:Conn_02x16_Odd_Even J1
 U 1 1 5D6B2B27
 P 8700 5000
 F 0 "J1" V 9126 4927 50  0000 C CNN
@@ -615,5 +615,137 @@ F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm" H 1700 
 F 3 "" H 1700 3250 50  0001 C CNN
 	1    1700 3250
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole MK1
+U 1 1 5D744743
+P 950 6550
+F 0 "MK1" H 1050 6596 50  0000 L CNN
+F 1 "MountingHole" H 1050 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 950 6550 50  0001 C CNN
+F 3 "~" H 950 6550 50  0001 C CNN
+	1    950  6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK5
+U 1 1 5D7449F9
+P 1850 6550
+F 0 "MK5" H 1950 6596 50  0000 L CNN
+F 1 "MountingHole" H 1950 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 1850 6550 50  0001 C CNN
+F 3 "~" H 1850 6550 50  0001 C CNN
+	1    1850 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK9
+U 1 1 5D744A55
+P 2750 6550
+F 0 "MK9" H 2850 6596 50  0000 L CNN
+F 1 "MountingHole" H 2850 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 2750 6550 50  0001 C CNN
+F 3 "~" H 2750 6550 50  0001 C CNN
+	1    2750 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK2
+U 1 1 5D744AAF
+P 950 6850
+F 0 "MK2" H 1050 6896 50  0000 L CNN
+F 1 "MountingHole" H 1050 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 950 6850 50  0001 C CNN
+F 3 "~" H 950 6850 50  0001 C CNN
+	1    950  6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK6
+U 1 1 5D744B2D
+P 1850 6850
+F 0 "MK6" H 1950 6896 50  0000 L CNN
+F 1 "MountingHole" H 1950 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 1850 6850 50  0001 C CNN
+F 3 "~" H 1850 6850 50  0001 C CNN
+	1    1850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK10
+U 1 1 5D744B8D
+P 2750 6850
+F 0 "MK10" H 2850 6896 50  0000 L CNN
+F 1 "MountingHole" H 2850 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 2750 6850 50  0001 C CNN
+F 3 "~" H 2750 6850 50  0001 C CNN
+	1    2750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK3
+U 1 1 5D744BF7
+P 950 7150
+F 0 "MK3" H 1050 7196 50  0000 L CNN
+F 1 "MountingHole" H 1050 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 950 7150 50  0001 C CNN
+F 3 "~" H 950 7150 50  0001 C CNN
+	1    950  7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK7
+U 1 1 5D744C4D
+P 1850 7150
+F 0 "MK7" H 1950 7196 50  0000 L CNN
+F 1 "MountingHole" H 1950 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 1850 7150 50  0001 C CNN
+F 3 "~" H 1850 7150 50  0001 C CNN
+	1    1850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK11
+U 1 1 5D744CB1
+P 2750 7150
+F 0 "MK11" H 2850 7196 50  0000 L CNN
+F 1 "MountingHole" H 2850 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 2750 7150 50  0001 C CNN
+F 3 "~" H 2750 7150 50  0001 C CNN
+	1    2750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK4
+U 1 1 5D74DDA9
+P 950 7450
+F 0 "MK4" H 1050 7496 50  0000 L CNN
+F 1 "MountingHole" H 1050 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 950 7450 50  0001 C CNN
+F 3 "~" H 950 7450 50  0001 C CNN
+	1    950  7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK8
+U 1 1 5D74DE07
+P 1850 7450
+F 0 "MK8" H 1950 7496 50  0000 L CNN
+F 1 "MountingHole" H 1950 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 1850 7450 50  0001 C CNN
+F 3 "~" H 1850 7450 50  0001 C CNN
+	1    1850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK12
+U 1 1 5D74DEA3
+P 2750 7450
+F 0 "MK12" H 2850 7496 50  0000 L CNN
+F 1 "MountingHole" H 2850 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 2750 7450 50  0001 C CNN
+F 3 "~" H 2750 7450 50  0001 C CNN
+	1    2750 7450
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
