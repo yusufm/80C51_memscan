@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:80c51_memscan-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -17,16 +17,16 @@ $EndDescr
 $Comp
 L Device:Crystal Y1
 U 1 1 5D6AB8BC
-P 1950 5600
-F 0 "Y1" V 1904 5731 50  0000 L CNN
-F 1 "4-12Mhz" V 1995 5731 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering" H 1950 5600 50  0001 C CNN
-F 3 "~" H 1950 5600 50  0001 C CNN
-	1    1950 5600
+P 2250 5250
+F 0 "Y1" V 2204 5381 50  0000 L CNN
+F 1 "4-12Mhz" V 2295 5381 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering" H 2250 5250 50  0001 C CNN
+F 3 "~" H 2250 5250 50  0001 C CNN
+	1    2250 5250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2550 5450 1950 5450
+	2850 4900 2250 4900
 $Comp
 L Device:CP1_Small C1
 U 1 1 5D6ABC64
@@ -83,7 +83,7 @@ F 3 "~" H 3400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 5750 2550 5750
+	2250 5600 2850 5600
 $Comp
 L power:+5V #PWR01
 U 1 1 5D6AED5E
@@ -169,9 +169,9 @@ Wire Wire Line
 	4100 3300 3350 3300
 Text GLabel 4100 3400 0    50   Input ~ 0
 XTAL1
-Text GLabel 2550 5450 2    50   Input ~ 0
+Text GLabel 2850 4900 2    50   Input ~ 0
 XTAL1
-Text GLabel 2550 5750 2    50   Input ~ 0
+Text GLabel 2850 5600 2    50   Input ~ 0
 XTAL2
 Text GLabel 6100 3300 2    50   Input ~ 0
 XTAL2
@@ -746,6 +746,58 @@ F 1 "MountingHole" H 2850 7405 50  0000 L CNN
 F 2 "MountingHole:MountingHole_8.4mm_M8" H 2750 7450 50  0001 C CNN
 F 3 "~" H 2750 7450 50  0001 C CNN
 	1    2750 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D74B625
+P 1650 4900
+F 0 "C3" V 1398 4900 50  0000 C CNN
+F 1 "27pF" V 1489 4900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1688 4750 50  0001 C CNN
+F 3 "~" H 1650 4900 50  0001 C CNN
+	1    1650 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 4900 2250 5100
+Wire Wire Line
+	2250 5400 2250 5600
+Wire Wire Line
+	2250 4900 1800 4900
+Connection ~ 2250 4900
+Wire Wire Line
+	1500 4900 1350 4900
+Wire Wire Line
+	1350 4900 1350 5600
+$Comp
+L Device:C C4
+U 1 1 5D758C3B
+P 1650 5600
+F 0 "C4" V 1398 5600 50  0000 C CNN
+F 1 "27pF" V 1489 5600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1688 5450 50  0001 C CNN
+F 3 "~" H 1650 5600 50  0001 C CNN
+	1    1650 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 5600 1500 5600
+Connection ~ 1350 5600
+Wire Wire Line
+	1800 5600 2250 5600
+Connection ~ 2250 5600
+Wire Wire Line
+	1350 5600 1350 5850
+$Comp
+L power:Earth #PWR013
+U 1 1 5D76155F
+P 1350 5850
+F 0 "#PWR013" H 1350 5600 50  0001 C CNN
+F 1 "Earth" H 1350 5700 50  0001 C CNN
+F 2 "" H 1350 5850 50  0001 C CNN
+F 3 "~" H 1350 5850 50  0001 C CNN
+	1    1350 5850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
